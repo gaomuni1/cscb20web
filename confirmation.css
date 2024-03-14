@@ -1,0 +1,73 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body, html {
+    background-color: #ADD8E6;
+  }
+  
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ADD8E6;
+    line-height: 1.6;
+  }
+
+   .confirmation-box {
+    text-align: center;
+    background: #fff;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%; 
+    max-width: 600px; 
+    margin: auto; 
+}
+
+
+.confirmation-icon {
+    background: #e8f5e9;
+    color: #4caf50;
+    border-radius: 50%;
+    padding: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem; 
+    font-size: 4rem;
+}
+
+
+.confirmation-title {
+    font-size: 2rem; 
+    margin-bottom: 1.5rem;
+}
+
+
+.confirmation-link {
+    font-size: 1rem; 
+    padding: 0.5rem 1rem;
+}
+
+
+.confirmation-link:hover {
+    text-decoration: underline;
+}
+
+
+.confirmation-button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+
+.confirmation-button:hover {
+    background: #43a047;
+}
+

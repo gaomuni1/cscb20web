@@ -1,0 +1,46 @@
+
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+
+body, html {
+  background-color: #ADD8E6;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ADD8E6;
+  line-height: 1.6;
+}
+
+
+  .course-header {
+    background-color: #e9f6fc;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px; 
+  }
+
+  .course-title {
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+  }
+
+
+  .course-description {
+    color: #666;
+    font-size: 1em;
+  }
+
+  @media (max-width: 768px) {
+    .course-title,
+    .course-description {
+      text-align: center;  
+      padding: 10px; 
+    }
+  }

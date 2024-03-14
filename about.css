@@ -1,0 +1,168 @@
+
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+
+body, html {
+  background-color: #ADD8E6;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ADD8E6;
+  line-height: 1.6;
+}
+ 
+ 
+ 
+ .email-link {
+    color: #007bff; 
+    text-decoration: none; 
+    position: relative; 
+    transition: color 0.3s ease; 
+  }
+
+  .email-link:hover {
+    color: #0056b3; 
+  }
+
+  .email-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-image: linear-gradient(to right, transparent, #007bff, transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+  }
+
+  .email-link:hover::after {
+    opacity: 1;
+  }
+
+
+.course-administration,
+.schedule-container {
+    margin-bottom: 20px;
+}
+
+.schedule-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule-row {
+    display: flex;
+}
+
+.schedule-row.header {
+    background-color: #333;
+    color: #fff;
+}
+
+.schedule-cell {
+    flex: 1; 
+    padding: 10px;
+    border: 1px solid #ddd; 
+}
+
+
+.title-container {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+
+.schedule-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.schedule-row {
+    display: flex;
+    background-color: #f8f8f8;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.schedule-row.header {
+    background-color: #333;
+    color: white;
+}
+
+.schedule-cell {
+    flex: 1;
+    padding: 5px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+
+.week-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; 
+    margin: 0;
+}
+
+
+.week-separator {
+    flex-grow: 1;
+  }
+
+.week-item:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+
+.week-item:nth-child(even) {
+    background-color: #ffffff;
+  }
+
+.week-item:hover {
+    background-color: #e9f6fc;
+  }
+ 
+
+.schedule-header-container {
+    text-align: center; 
+    background-color: #e9f6fc;
+    padding: 20px 0; 
+  }
+
+
+  @media (max-width: 768px) {
+    .schedule-container,
+    .info-container,
+    .week-item,
+    .schedule-row,
+    .schedule-cell {
+     
+      flex-direction: column;
+    }
+  
+    .schedule-cell,
+    .week-item {
+     
+      flex: 1 0 100%;
+      max-width: 100%;
+    }
+  
+    .week-separator {
+      display: none; 
+    }
+    
+    .title-container,
+    .schedule-header-container {
+      margin: 10px; 
+    }
+  }
+  

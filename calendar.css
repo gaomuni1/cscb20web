@@ -1,0 +1,53 @@
+
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+
+body, html {
+  background-color: #ADD8E6;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ADD8E6;
+  line-height: 1.6;
+}
+
+
+.schedule-header-container {
+    text-align: center; 
+    background-color: #e9f6fc;
+    padding: 20px 0; 
+  }
+
+
+.schedule-header {
+    margin: 0; 
+    color: black;
+    font-size: 2em;
+  }
+
+  .iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 75vh; 
+  }
+
+@media (max-width: 768px) {
+    .schedule-header-container {
+        padding: 15px 0; 
+    }
+
+    .schedule-header {
+        font-size: 5vw; 
+    }
+
+    .iframe-container {
+        height: auto; 
+        padding: 10px; 
+    }
+}

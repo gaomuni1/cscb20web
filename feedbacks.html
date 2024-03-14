@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSCB20 - Anonymous Feedback</title>
+  <link rel="stylesheet" type="text/css" href="feedback.css">
+  <link rel="stylesheet" type="text/css" href="navbar.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="team.html">COURSE TEAM</a></li>
+      <li><a href="news.html">NEWS</a></li>
+      <li><a href="labs.html">LABS/TUTS</a></li>
+      <li><a href="assignments.html">ASSIGNMENTS</a></li>
+      <li><a href="syllabus.html">SYLLABUS</a></li>
+      <li><a href="https://piazza.com/class/lqy466htv8g5xb/post/6">PIAZZA</a></li>
+      <li><a href="https://markus148.teach.cs.toronto.edu/2024-01/?locale=en">MARKUS</a></li>
+      <li><a href="https://www.cdf.toronto.edu/">CDF LABS</a></li>
+      <li><a href="calender.html">CALENDAR</a></li>
+      <li><a href="feedbacks.html">FEEDBACK</a></li>
+    </ul>
+  </nav>
+    
+  <div class="form-container">
+    <h2>CSCB20 - Anonymous Feedback Form</h2>
+
+    <form action="confirmation.html" method="post">
+      <div class="form-field">
+        <label for="full-name">Full name *</label>
+        <input type="text" id="first-name" name="first-name" placeholder="First" required>
+        <input type="text" id="last-name" name="last-name" placeholder="Last" required>
+      </div>
+
+      <div class="form-field">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-field">
+        <label for="message">Leave us a few words *</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+
+      <div class="form-field">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+  
+  <footer>
+    <p>
+      Site designed by David Gao, Alfredo Yu
+    </p>
+    <p>
+      <a href="https://web.cs.toronto.edu/" class="footer-link">Faculty of Computer Science at UofT</a>
+    </p>
+  </footer>
+
+
+</body>
+</html>
